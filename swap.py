@@ -1,0 +1,22 @@
+# n1 = 20
+# n2 = 30
+# temp = n1
+# n1 = n2
+# n2 = temp
+# print(f"n1={n1}  n2={n2}")
+
+
+# char1 = "Hello"
+# char2 = "java"
+# temp = char1
+# char1 = char2
+# char2 = temp
+# print(f"char1={char1}  char2= {char2}")
+
+
+n1 = 200
+char1 = "java"
+temp = n1
+n1 = char1
+char1 = temp
+print(f"n1 = {n1}  char1 = {char1}")
