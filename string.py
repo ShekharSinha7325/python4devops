@@ -1,7 +1,7 @@
 #string("", '', """ """, ''' ''') :- A string is just text (sequence of characters)
 #var1 = "d"
 
-student_name = "Amna Kumar"
+student_name = "Aman Kumar"
 student_address = "D-1 255/455 NOIDA SEC-15 NEW  DELHI 110096"
 student_number = "7634958565"
 #print(len(student_number))
