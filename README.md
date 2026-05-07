@@ -1,1 +1,2 @@
-hii this is devops file 
+hii this is python practice repo
+
