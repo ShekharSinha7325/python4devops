@@ -1,4 +1,4 @@
-# 5. Membership Operator
+# 5. Membership Operator (in , not in)
 
 # str1 = "this is python for devop 109"
 # #find = "this" # it is in the sequence

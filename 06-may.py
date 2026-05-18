@@ -82,3 +82,6 @@ if n>70:
 else:
     print("No")   #if multiple if condition and last
                   # me else statement h to oo apne se uper wale if ko trigger krega baki ko nhi
+
+
+# To purpose of read conditional statement to make our program intelligent
