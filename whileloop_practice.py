@@ -119,11 +119,32 @@
 
 #wap to reverse the digit : 1234 , output : 4321
 
-num = 1234
-rev = 0
-while num > 0:
-    digit = num % 10
-    rev = rev * 10 + digit
-    num = num // 10
-print(rev)
+# num = 1234
+# rev = 0
+# while num > 0:
+#     digit = num % 10
+#     rev = rev * 10 + digit
+#     num = num // 10
+# print(rev)
     
+
+
+# str1 = "Rohan"
+# vowels = "aeiouAEIOU"
+# count = 0
+# i=0
+# while i < len(str1):
+#     if str1[i] in vowels:
+#         count += 1
+    
+#     i += 1
+# print(count)
+
+#WAp to print formated table on a number give by user
+
+num1 = int(input("Enter your number : "))
+i = 1
+while i <=10:
+    n1 = num1 * i
+    print(f"{num1} X {i} = {n1}")
+    i+= 1
