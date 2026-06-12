@@ -58,12 +58,23 @@
 
 #pattern Program
 
-n = 7
-for i  in range(n):
-    for j in range(n):
-        if j == 0 or j == n-1 or i == n//2:
-            print("*", end=" ")
-        else:
-            print(" ", end=" ")
-    print()
+# n = 7
+# for i  in range(n):
+#     for j in range(n):
+#         if j == 0 or j == n-1 or i == n//2:
+#             print("*", end=" ")
+#         else:
+#             print(" ", end=" ")
+#     print()
+    
+
+#wap to check odd_even
+def odd_even(n):
+    if n%2==0:
+        return "Even"
+    else:
+        return "Odd"
+
+res = odd_even(10)
+print(res)
     
