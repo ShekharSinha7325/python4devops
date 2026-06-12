@@ -99,7 +99,7 @@ print(res)
 def sum_of_cubes():
     a = 1
     b = 2
-    claculate = a**3 + b**3
+    claculate = (a - b)*(a**2+b**2+a*b)
     return claculate
 res = sum_of_cubes()
 print(res)
@@ -126,4 +126,10 @@ def difference_of_cubes():
     claculate = x**3 - y**3
     return claculate
 res = difference_of_cubes()
+print(res)
+
+def difference_of_cubes(x,y):
+    claculate = x**3 - y**3
+    return claculate
+res = difference_of_cubes(4,1)
 print(res)

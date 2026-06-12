@@ -1,12 +1,12 @@
 #1. wap to takes start_point and end_point from user input and print all number divisble by 2 and 3
-start_point = int(input("Enter start Point : "))
-end_point = int(input("Enter end Point : "))
+# start_point = int(input("Enter start Point : "))
+# end_point = int(input("Enter end Point : "))
 
-for i in range(start_point,end_point):
-    if i%2 == 0:
-        print(f"Number Divisble by 2 : {i}")
-    if i %3 == 0:
-        print(f"Number divisble by 3 : {i}")
+# for i in range(start_point,end_point):
+#     if i%2 == 0:
+#         print(f"Number Divisble by 2 : {i}")
+#     if i %3 == 0:
+#         print(f"Number divisble by 3 : {i}")
 
 
 
@@ -35,10 +35,10 @@ for i in range(start_point,end_point):
 # ....
 # 3x10 = 30
 
-Num = int(input("Enter a number : "))
-for i in range(1,11):
-    n1 = Num*i
-    print(f"{Num} X {i} : {n1}")
+# Num = int(input("Enter a number : "))
+# for i in range(1,11):
+#     n1 = Num*i
+#     print(f"{Num} X {i} : {n1}")
 
  
 
@@ -50,7 +50,20 @@ for i in range(1,11):
 # ....
 # 3x1 = 3
 
-Num = int(input("Enter a number : "))
-for i in range(10,0,-1):
-    n1 = Num*i
-    print(f"{Num} X {i} : {n1}")
+# Num = int(input("Enter a number : "))
+# for i in range(10,0,-1):
+#     n1 = Num*i
+#     print(f"{Num} X {i} : {n1}")
+
+
+#pattern Program
+
+n = 7
+for i  in range(n):
+    for j in range(n):
+        if j == 0 or j == n-1 or i == n//2:
+            print("*", end=" ")
+        else:
+            print(" ", end=" ")
+    print()
+    

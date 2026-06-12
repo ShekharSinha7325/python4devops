@@ -163,20 +163,20 @@
 
 #waf to retrun lenght of a string pass user without using len():
 
-# def lenght_string(str1):
-#     print(str1)
-#     c = 0
-#     sum = 0
-#     for i in str1:
-#         c += 1
-#         sum = i + sum
-#     print(sum)
-#     return c
+def lenght_string(str1):
+    print(str1)
+    c = 0
+    sum = 0
+    for i in str1:
+        c += 1
+        sum = i + sum
+    print(sum)
+    return c
 
-# str1 = input("Enter a string : ")
-# res = lenght_string(str1)
-# print(sum)
-# print(res)
+str1 = input("Enter a string : ")
+res = lenght_string(str1)
+print(sum)
+print(res)
 
 #waf to check given how many vowels in given string
 
@@ -220,11 +220,11 @@ string = "python programing "
 
 #waf to return sum of string indexes:
 
-str = "Python"
-def String_sum(str):
-    sum = 0
-    for i in range(len(str)):
-        sum = sum + i
-    return sum
-res = String_sum(str)
-print(res)
+# str = "Python"
+# def String_sum(str):
+#     sum = 0
+#     for i in range(len(str)):
+#         sum = sum + i
+#     return sum
+# res = String_sum(str)
+# print(res)
